@@ -2,6 +2,7 @@ import sponsor1 from "../assets/images/sponsor1.jpg";
 import sponsor2 from "../assets/images/sponsor2.png";
 import sponsor3 from "../assets/images/sponsor3.jpg";
 import sponsor4 from "../assets/images/sponsor4.jpg";
+import { Link } from "react-router-dom";
 
 function SponsorshipOpportunities() {
   const sponsorships = [
@@ -101,9 +102,12 @@ function SponsorshipOpportunities() {
             memorable experiences, and measurable brand impact.
           </p>
 
-          <button className="px-8 py-4 bg-yellow-500 text-black rounded-full font-semibold hover:scale-105 transition duration-300">
+          <Link
+            to="/Sponsorship"
+            className="px-8 py-4 bg-yellow-500 text-black rounded-full font-semibold hover:scale-105 transition duration-300"
+            >
             Explore Sponsorship Opportunities
-          </button>
+          </Link>
         </div>
 
       </div>

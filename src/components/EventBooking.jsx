@@ -2,6 +2,7 @@ import concert from "../assets/images/concert.avif";
 import launch from "../assets/images/productLaunch.webp";
 import corporate from "../assets/images/conferenceEvent.jpeg";
 import convention from "../assets/images/expoConventionHall.jpeg";
+import { Link } from "react-router-dom";
 
 function EventBooking() {
   const venues = [
@@ -106,9 +107,13 @@ function EventBooking() {
             to maximize visibility and engagement.
           </p>
 
-          <button className="px-8 py-4 bg-yellow-500 text-black rounded-full font-semibold hover:scale-105 transition duration-300">
+          
+          <Link
+            to="/events"
+            className="px-8 py-4 bg-yellow-500 text-black rounded-full font-semibold hover:scale-105 transition duration-300"
+            >
             Request Venue Information
-          </button>
+          </Link>
         </div>
 
       </div>

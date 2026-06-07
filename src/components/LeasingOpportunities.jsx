@@ -2,6 +2,8 @@ import luxury from "../assets/images/leasingLuxury.jpeg";
 import fashion from "../assets/images/leasingFashion.jpeg";
 import food from "../assets/images/leasingFood.webp";
 import popup from "../assets/images/leasingPopup.webp";
+import { Link } from "react-router-dom";
+
 
 function LeasingOpportunities() {
 const opportunities = [
@@ -101,9 +103,12 @@ return ( <section id="leasing" className="bg-black text-white py-24"> <div class
         traffic, and audience needed for success.
       </p>
 
-      <button className="px-8 py-4 bg-yellow-500 text-black rounded-full font-semibold hover:scale-105 transition duration-300">
-        Explore Leasing Opportunities
-      </button>
+     <Link
+  to="/leasing"
+  className="px-8 py-4 bg-yellow-500 text-black rounded-full font-semibold hover:scale-105 transition duration-300"
+>
+  Explore Leasing Opportunities
+</Link>
     </div>
 
   </div>

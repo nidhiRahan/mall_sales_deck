@@ -3,6 +3,7 @@ import dining2 from "../assets/images/dining2.jpg";
 import dining3 from "../assets/images/dining3.jpg";
 import dining4 from "../assets/images/dining4.jpg";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 function Dining() {
   const diningPlaces = [
@@ -108,9 +109,13 @@ function Dining() {
             premium hospitality experiences, and lifestyle-focused dining concepts.
           </p>
 
-          <button className="px-8 py-4 bg-yellow-500 text-black rounded-full font-semibold hover:scale-105 transition duration-300">
+          
+          <Link
+            to="/leasing"
+            className="px-8 py-4 bg-yellow-500 text-black rounded-full font-semibold hover:scale-105 transition duration-300"
+            >
             Explore Dining Opportunities
-          </button>
+          </Link>
         </div>
 
       </div>

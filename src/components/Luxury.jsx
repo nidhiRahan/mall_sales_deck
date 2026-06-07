@@ -2,6 +2,7 @@ import luxury1 from "../assets/images/luxury1.jpg";
 import luxury2 from "../assets/images/luxury2.webp";
 import luxury3 from "../assets/images/luxury5.jpg";
 import luxury4 from "../assets/images/luxury3.webp";
+import { Link } from "react-router-dom";
 
 function Luxury() {
   const luxuryData = [
@@ -100,9 +101,13 @@ function Luxury() {
             affluent consumers seeking premium experiences and exclusive offerings.
           </p>
 
-          <button className="px-8 py-4 bg-yellow-500 text-black rounded-full font-semibold hover:scale-105 transition duration-300">
-            Explore Luxury Opportunities
-          </button>
+          
+          <Link
+  to="/leasing"
+  className="px-8 py-4 bg-yellow-500 text-black rounded-full font-semibold hover:scale-105 transition duration-300"
+>
+  Explore Luxury Opportunities
+</Link>
         </div>
 
       </div>

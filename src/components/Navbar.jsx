@@ -61,7 +61,7 @@ function Navbar() {
 
       {/* CTA Button */}
       <a
-        href="#cta"
+        href="#footer"
         className="bg-yellow-500 text-black px-5 py-3 rounded-full font-semibold hover:scale-105 transition duration-300 shadow-lg"
       >
         Contact Us

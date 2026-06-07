@@ -3,6 +3,8 @@ import aquarium from "../assets/images/aquarium.jpg";
 import eventImg from "../assets/images/event.jpg";
 import family from "../assets/images/family.jpg";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
+
 function Entertainment() {
   const attractions = [
   {
@@ -101,9 +103,13 @@ function Entertainment() {
     Create Experiences That Drive Engagement
   </h3>
 
-  <button className="px-8 py-4 bg-yellow-500 text-black rounded-full font-semibold hover:scale-105 transition">
-    Explore Entertainment Partnerships
-  </button>
+
+  <Link
+  to="/sponsorship"
+  className="px-8 py-4 bg-yellow-500 text-black rounded-full font-semibold hover:scale-105 transition duration-300"
+>
+ Explore Entertainment Partnerships
+</Link>
 </div>
 
       </div>
