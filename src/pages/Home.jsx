@@ -1,10 +1,8 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-import Stats from "../components/Stats";
 import Retail from "../components/Retail";
 import Entertainment from "../components/Entertainment";
 import Dining from "../components/Dining";
- import EventsPlatform from "../components/EventsPlatform";
  import CTA from "../components/CTA";
 import ScrollProgress from "../components/ScrollProgress";
  import Footer from "../components/Footer";
@@ -21,7 +19,6 @@ import EventBooking from "../components/EventBooking";
       <Navbar />
       <Hero />
       <WhyProperty/>
-      <Stats />
       <Retail />
       <Luxury />
       <LeasingOpportunities />
@@ -29,7 +26,6 @@ import EventBooking from "../components/EventBooking";
       <SponsorshipOpportunities/>
       <EventBooking />
       <Dining />
-      <EventsPlatform />
       <CTA />
       <Footer />
       

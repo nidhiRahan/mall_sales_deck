@@ -25,15 +25,15 @@ function WhyProperty() {
   ];
 
   return (
-    <section className="bg-[#0a0a0a] text-white py-24">
+    <section id="why-property" className="bg-[#0a0a0a] text-white py-24">
       <div className="max-w-7xl mx-auto px-6">
 
-        <p className="uppercase tracking-[6px] text-[#E8DCC6] mb-4">
+        <p className="uppercase tracking-[6px] text-yellow-500 mb-4">
           Why This Property
         </p>
 
         <h2 className="text-5xl font-bold text-[#F5EBD7] mb-6">
-          A Destination Unlike Any Other
+         North America's Premier Retail & Entertainment Destination
         </h2>
 
         <p className="text-gray-400 max-w-3xl mb-16">
