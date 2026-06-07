@@ -1,144 +1,79 @@
-# Mall Sales Deck
+# Mall of America Interactive Sales Deck
 
-An interactive, video-first sales presentation deck inspired by modern Digideck experiences. This project showcases a large-scale shopping mall as a premium destination for retail leasing, sponsorship opportunities, brand activations, and event hosting.
+An interactive, modern sales deck built using React, Vite, Tailwind CSS, and Framer Motion.
 
 ## Live Demo
 
 https://mall-sales-deck-one.vercel.app/
 
-## GitHub Repository
-
-https://github.com/nidhiRahan/mall_sales_deck
-
 ## Project Overview
 
-Traditional sales presentations often rely on PDFs, spreadsheets, and static slides. This project reimagines that process as an immersive browser-based experience that communicates the scale, energy, and commercial value of a destination property.
+This project showcases Mall of America as a premier retail, entertainment, dining, sponsorship, and event destination through an immersive digital experience.
 
-The experience is designed for:
-
-* Retail tenants
-* Luxury brands
-* Sponsors and partners
-* Event organizers
-* Corporate clients
+The goal was to create a visually engaging and conversion-focused sales deck that highlights leasing opportunities, sponsorship offerings, entertainment attractions, dining experiences, and event capabilities.
 
 ## Features
 
-### Cinematic Hero Experience
-
-* Video-first storytelling
-* High-impact visual presentation
-* Modern luxury-inspired design
-
-### Why This Property
-
-* Location highlights
-* Accessibility
-* Scale and reach
-* Business opportunities
-
-### Retail Experience
-
-* Retail ecosystem overview
-* Brand presence
-* Leasing opportunities
-
-### Dining & Lifestyle
-
-* Lifestyle-focused destination positioning
-* Food and beverage offerings
-
-### Attractions & Entertainment
-
-* Entertainment experiences
-* Visitor engagement highlights
-
-### Sponsorship Opportunities
-
-* Brand partnership opportunities
-* Audience engagement potential
-
-### Events & Venue Booking
-
-* Event hosting capabilities
-* Venue highlights
-* Booking call-to-action
+* Interactive Hero Section with Video Background
+* Retail Showcase
+* Luxury Retail Section
+* Dining & Lifestyle Experiences
+* Entertainment & Attractions
+* Sponsorship Opportunities
+* Events & Venue Booking
+* Leasing Opportunities
+* Responsive Design
+* Smooth Animations using Framer Motion
+* Call-To-Action Sections
+* Multi-Page Navigation using React Router
 
 ## Tech Stack
 
-### Frontend
-
 * React
 * Vite
-* JavaScript
-* CSS
+* Tailwind CSS
+* Framer Motion
+* React Router DOM
 
-### Deployment
+## Project Structure
 
-* Vercel
-
-### Version Control
-
-* Git
-* GitHub
-
-## Design Inspiration
-
-This project draws inspiration from:
-
-* Digideck
-* Apple
-* Tesla
-* Disney
-* Universal Studios
-* Luxury brand storytelling experiences
+src/
+├── components/
+├── pages/
+├── assets/
+│ ├── images/
+│ └── videos/
+├── App.jsx
+└── main.jsx
 
 ## AI Usage
 
 AI tools were used for:
 
-* Content ideation
-* UI/UX planning
-* Copy refinement
-* Design assistance
-* Project architecture guidance
+* Content refinement
+* UI/UX brainstorming
+* Frontend development guidance
+* Design improvement suggestions
 
-## Setup Instructions
+All implementation, customization, testing, and deployment were completed manually.
 
-Clone the repository:
-
-```bash
-git clone https://github.com/nidhiRahan/mall_sales_deck.git
-```
-
-Install dependencies:
+## Installation
 
 ```bash
 npm install
-```
-
-Run locally:
-
-```bash
 npm run dev
 ```
 
-Build for production:
+## Build
 
 ```bash
 npm run build
 ```
 
-## Future Enhancements
+## Deployment
 
-* Leasing inquiry backend
-* Sponsorship inquiry workflow
-* Event booking management
-* Analytics dashboard
-* Dynamic content management
+Deployed on Vercel.
 
 ## Author
 
 Nidhi Rahangdale
-
-Java Developer | Full Stack Enthusiast
