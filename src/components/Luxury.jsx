@@ -1,7 +1,7 @@
-import luxury1 from "../assets/images/luxury1.jpeg";
+import luxury1 from "../assets/images/luxury1.jpg";
 import luxury2 from "../assets/images/luxury2.webp";
-import luxury3 from "../assets/images/luxury3.webp";
-import luxury4 from "../assets/images/luxury4.webp";
+import luxury3 from "../assets/images/luxury5.jpg";
+import luxury4 from "../assets/images/luxury3.webp";
 
 function Luxury() {
   const luxuryData = [

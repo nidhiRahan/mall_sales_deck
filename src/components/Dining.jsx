@@ -1,7 +1,7 @@
 import dining1 from "../assets/images/dining1.jpeg";
-import dining2 from "../assets/images/dining2.jpeg";
-import dining3 from "../assets/images/dining3.jpeg";
-import dining4 from "../assets/images/dining4.jpeg";
+import dining2 from "../assets/images/dining2.jpg";
+import dining3 from "../assets/images/dining3.jpg";
+import dining4 from "../assets/images/dining4.jpg";
 import { motion } from "framer-motion";
 
 function Dining() {
