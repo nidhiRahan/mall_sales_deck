@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-
+import { Link } from "react-router-dom";
 import appleLogo from "../assets/images/brands/apple.jpeg";
 import nikeLogo from "../assets/images/brands/nike.jpeg";
 import zaraLogo from "../assets/images/brands/zara.jpeg";
@@ -110,9 +110,14 @@ function Retail() {
             Join America's Premier Retail Destination
           </h3>
 
-          <button className="px-8 py-4 bg-yellow-500 text-black font-semibold rounded-full hover:scale-105 transition duration-300">
+          
+
+          <Link
+            to="/leasing"
+            className="px-8 py-4 bg-yellow-500 text-black rounded-full font-semibold hover:scale-105 transition duration-300"
+            >
             Explore Leasing Opportunities
-          </button>
+          </Link>
         </div>
       </div>
     </section>

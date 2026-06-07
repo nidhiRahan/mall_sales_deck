@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 function Leasing() {
   return (
@@ -69,9 +70,12 @@ function Leasing() {
 
         {/* CTA */}
         <div className="text-center mt-20">
-          <button className="px-8 py-4 bg-yellow-500 text-black rounded-full font-semibold hover:scale-105 transition">
+         <Link
+            to="/"
+            className="inline-block px-8 py-4 bg-yellow-500 text-black font-semibold rounded-full hover:scale-105 transition"
+            >
             Contact Leasing Team
-          </button>
+         </Link>
         </div>
 
       </div>

@@ -1,6 +1,7 @@
 
 import heroVideo from "../assets/videos/mall-hero.mp4";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 function Hero() {
   return (
@@ -66,15 +67,14 @@ function Hero() {
             Connect With Millions.
           </motion.p>
 
-          <motion.button
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 1.2 }}
-            className="mt-12 px-10 py-4 bg-yellow-500 text-black rounded-full font-bold hover:scale-105 transition-all duration-300 shadow-2xl"
-          >
-            Explore Opportunities
-          </motion.button>
+          
 
+<Link
+  to="/leasing"
+  className="inline-block mt-10 px-10 py-4 bg-yellow-500 text-black rounded-full font-bold hover:scale-105 transition-all duration-300 shadow-xl"
+>
+  Explore Opportunities
+</Link>
         </div>
       </div>
     </section>
