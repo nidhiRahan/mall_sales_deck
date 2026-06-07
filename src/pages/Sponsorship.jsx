@@ -1,4 +1,6 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
+
 function Sponsorship() {
   const sponsors = [
     {
@@ -64,9 +66,14 @@ function Sponsorship() {
           Ready To Partner?
         </h2>
 
-        <button className="px-8 py-4 bg-white text-black rounded-full font-semibold hover:scale-105 transition">
-          Contact Sponsorship Team
-        </button>
+       
+
+        <Link
+            to="/"
+            className="inline-block px-8 py-4 bg-yellow-500 text-black font-semibold rounded-full hover:scale-105 transition"
+            >
+            Contact Sponsorship Team
+         </Link>
       </section>
 
     </motion.div>
